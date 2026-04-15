@@ -78,6 +78,7 @@ body{
     border-radius: 32px;
     transform: rotate(-3deg);
     margin-top: 2px;
+    margin-right: -20px;
 }
 
 .img-right{
@@ -85,8 +86,9 @@ body{
     align-self: stretch;
     background: url(/src/88a2011c37d8397c3dc1bd040b43a346092f6972.jpg) lightgray 0.002px 0.002px / 99.996% 99.996% no-repeat;
     border-radius: 32px;
-    transform: rotate(6deg);
+    transform: rotate(12deg);
     margin-top: 8px;
+    margin-left: -40px;
 }
 
 .card-text{
