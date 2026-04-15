@@ -32,7 +32,7 @@ body{
     border-radius: 48px;
     background: rgba(251, 246, 236, 0.10);
     backdrop-filter: blur(12px);
-    margin-top: 80px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
