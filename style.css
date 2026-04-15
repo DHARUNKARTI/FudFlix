@@ -1,0 +1,193 @@
+body{
+    background: linear-gradient(156deg, #8A4B11 0%, #FFAB69 100%);
+    margin: 0;
+    font-family: "Plus Jakarta Sans",sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    background: #FBF6EC;
+    border-radius: 32px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05) inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #8A4B11;
+}
+.icon-out{
+    width: 112px;
+    height: 112px;
+    padding: 16px;
+    border-radius: 48px;
+    background: rgba(251, 246, 236, 0.10);
+    backdrop-filter: blur(12px);
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.title{
+    color: #FFF;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; /* 100% */
+    letter-spacing: -1.5px;
+    margin-bottom: 15px;
+}
+
+.underline{
+    width: 48px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 9999px;
+    background: #FFCF36;
+}
+
+.card-container{
+    display: flex;
+    height: 228px;
+    padding: 0 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4.506px;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin-top: 24.5px;
+}
+
+.img-left{
+    height: 228.002px;
+    align-self: stretch;
+    background: url(</src/a29398759b398441e152c5e4ab846e6bd3789742.jpg>) lightgray -28.497px 0.001px / 133.33% 99.999% no-repeat;
+    border-radius: 32px;
+    transform: rotate(-3deg);
+    margin-top: 2px;
+}
+
+.img-right{
+    height: 114.005px;
+    align-self: stretch;
+    background: url(/src/88a2011c37d8397c3dc1bd040b43a346092f6972.jpg) lightgray 0.002px 0.002px / 99.996% 99.996% no-repeat;
+    border-radius: 32px;
+    transform: rotate(6deg);
+    margin-top: 8px;
+}
+
+.card-text{
+    position: absolute;
+    width: 195px;
+    height: 199px;
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.10), 0 8px 10px -6px rgba(0, 0, 0, 0.10);
+    background-color: #F7EBDB;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title{
+    color: #8A4B11;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+}
+
+.card-para{
+    color: #5E5B54;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.75px; /* 162.5% */
+    max-width: 15ch;
+}
+
+.desc h2{
+    margin-top: -6px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 125% */
+    overflow: visible;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.desc p{
+    margin-top: 70px;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.get-started-container{
+    display: flex;
+    width: 326px;
+    max-width: 384px;
+    padding: 20px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 9999px;
+    background: linear-gradient(0deg, #F9F4E9 0%, #F9F4E9 100%);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.get-started-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    color: #8A4B11;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.45px;
+    cursor: pointer;
+}
+
+.get-started-text img{
+    width: 16px;
+    height: 16px;
+    fill: #9D6735;
+    cursor: pointer;
+}
+
+.desc{
+    margin-bottom: 40px;
+}
+
