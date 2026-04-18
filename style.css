@@ -207,3 +207,7 @@ body{
     margin-left: 0px;
 }
 
+.get-started-container button{
+    cursor: pointer;
+}
+

@@ -37,12 +37,19 @@ Canteens Your Food!</h2>
             <p>The ultimate editorial dining experience,<br>
 tailored for the academic lifestyle.</p>
         </div>
-        <div class="get-started-container">
+        <div class="get-started-container"
+        onclick="goToPage()">
             <div class="get-started-text">
                 <button>Get Started</button>
                 <img src="./src/Icon.png" alt="">
             </div>
         </div>
     </div>
+    <script>
+        function goToPage(){
+            console.log("button clicked!");
+            window.location.href = "index_home.html";
+        }
+    </script>
 </body>
 </html>
